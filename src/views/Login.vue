@@ -17,7 +17,7 @@ const UsuarioStore = useUsuarioStore()
 
 
 const email = ref('poison@d.cm')
-const password = ref('azsxdcfvgb')
+const password = ref('azsxdcfvgbss')
 
 const HandleSumbit = async() => {
 	if (!email.value || !password.value) {
