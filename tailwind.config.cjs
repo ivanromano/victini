@@ -18,7 +18,7 @@ module.exports = {
       },
 
 
-      // animate-[wave_1s_ease-in-out_infinite]
+      // animate-[wave_s_ease-in-out_infinite]
       keyframes: {
         wave: {
           '0%': { transform: 'rotate(0.0deg)' },
