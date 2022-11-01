@@ -10,14 +10,14 @@
 
 <script setup>
 import { useUsuarioStore } from '../stores/Usuario';
-import { reactive, ref } from 'vue';
+import { ref } from 'vue';
 
 
 const UsuarioStore = useUsuarioStore()
 
 
 const email = ref('poison@d.cm')
-const password = ref('azsxdcfvgbss')
+const password = ref('azsxdcfvgb')
 
 const HandleSumbit = async() => {
 	if (!email.value || !password.value) {

@@ -4,7 +4,7 @@ import Register from "./views/Register.vue";
 import Home from "./views/Home.vue";
 import { useUsuarioStore } from "./stores/Usuario";
 
-// a diferencia de las demas paginas, el usuariostore se pone dentro del requireAuth
+// a diferencia de las demas paginas, el usuariostore se pone dentro del requireAuth .
 const requireAuth = async(to, from, next) => {
 	const UsuarioStore = useUsuarioStore()
 	UsuarioStore.loadingNav = true
